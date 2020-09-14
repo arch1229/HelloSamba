@@ -20,6 +20,9 @@ Samba
                 create mode = 0777
                 directory mode = 0777
     sudo service smbd restart
+    
+## 1.1 Samba 시작하기
+    sudo service smbd start
 
 ## 2. 윈도우(Host)에서 접속
     \\**192.168.153.196**\Workspace
